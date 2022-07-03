@@ -24,7 +24,7 @@ export default function App() {
           placeholder='Your course goal!'
           onChangeText={goalInputHandler}
         />
-        <Button title='Add Goal' onPress={addGoalHandler}/>
+        <Button title={`Add\nGoal`} onPress={addGoalHandler}/>
       </View>
       <View style={styles.goalsContainer}>
         {courseGoals.map((goal, index) => (
